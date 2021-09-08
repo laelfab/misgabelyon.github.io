@@ -32273,6 +32273,20 @@ video {
   content: none;
 }
 
+.btn-navigate {
+  top: 80%;
+  right: 0;
+  transform: translateY(-10%);
+}
+
+@media (min-width: 1024px) {
+  .btn-navigate {
+    top: 70%;
+    right: 0;
+    transform: translateY(-10%);
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
